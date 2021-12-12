@@ -1,0 +1,71 @@
+@use '../abstracts/index' as *;
+
+.inner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body {
+    background-color: $main-background;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: $link-text;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+header,
+#hero-container,
+#main,
+#contacts {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width:$breakpoint-xs) {
+    
+    .inner {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width:$breakpoint-small) {
+
+    .inner {
+        width: 526px;
+    }
+
+}
+
+@media screen and (min-width:$breakpoint-large) {
+
+    .inner {
+        width: 700px;
+    }
+
+}
+
+@media screen and (min-width:$breakpoint-xl) {
+    
+    .inner {
+        width: 1180px;
+    }
+
+}

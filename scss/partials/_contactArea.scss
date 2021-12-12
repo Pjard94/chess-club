@@ -1,0 +1,16 @@
+@use '../abstracts/index' as *;
+
+#contactArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-details {
+    text-align: center;
+}
+
+#email,
+#address {
+    padding-top: 15px;
+}

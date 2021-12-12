@@ -1,3 +1,152 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, body, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* /CSS reset */
 .inner {
   display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+body {
+  background-color: #FFD691;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #A2643A;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+header,
+#hero-container,
+#main,
+#contacts {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 420px) {
+  .inner {
+    width: 400px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .inner {
+    width: 526px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .inner {
+    width: 700px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .inner {
+    width: 1180px;
+  }
+}
+header {
+  background-color: #833E1C;
+  height: 70px;
+  width: 100%;
+  display: flex;
+}
+
+#header-inner {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#club-logo {
+  height: 50px;
+  border-radius: 17px;
+}
+
+.club-description {
+  padding: 15px 10px;
+}
+
+.club-links {
+  padding: 15px 10px;
+}
+
+#contactArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-details {
+  text-align: center;
+}
+
+#email,
+#address {
+  padding-top: 15px;
 }/*# sourceMappingURL=style.css.map */
