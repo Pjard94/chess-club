@@ -14,3 +14,21 @@
 #address {
     padding-top: 15px;
 }
+
+@media screen and (min-width: $breakpoint-medium) {
+    .row {
+        flex-direction: row;
+    }
+
+    #contactArea {
+        margin-top: -325px;
+    }
+}
+
+@media screen and (min-width: $breakpoint-xl) {
+
+    #contactArea {
+        margin-top: -168px;
+    }
+    
+}
