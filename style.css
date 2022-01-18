@@ -133,6 +133,14 @@ header {
   border-radius: 17px;
 }
 
+#hero-image {
+  background: url(assets/HeroImage.JPG);
+  width: 100vw;
+  height: 95vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .club-description {
   padding: 15px 10px;
 }

@@ -1,0 +1,9 @@
+@use '../abstracts/index' as *;
+
+#hero-image {
+    background: url(assets/HeroImage.JPG);
+    width: 100vw;
+    height: 95vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
