@@ -59,6 +59,7 @@ table {
   justify-content: space-around;
   align-items: center;
   height: inherit;
+  padding: 0px 15px;
 }
 
 body {
@@ -139,7 +140,7 @@ header {
   background: url(assets/HeroImage.JPG);
   width: 100vw;
   height: 95vh;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
