@@ -4,13 +4,13 @@
     background: url(assets/HeroImage.JPG);
     width: 100vw;
     height: 95vh;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
 }
 
-#hero-inner {
-    width: 100vw;
-}
+
 
 #hero-text {
     font-size: 50px;
